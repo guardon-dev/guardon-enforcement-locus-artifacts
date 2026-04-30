@@ -1,0 +1,8 @@
+apiVersion: policy/v1beta1
+kind: PodSecurityPolicy
+metadata:
+  name: deprecated_podsecuritypolicy_19
+spec:
+  privileged: true
+  allowPrivilegeEscalation: true
+  hostNetwork: true

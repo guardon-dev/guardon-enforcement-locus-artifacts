@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resource-app-7
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: resource-app-7
+  template:
+    metadata:
+      labels:
+        app: resource-app-7
+    spec:
+      containers:
+      - name: app
+        image: nginx
+        resources:
+          requests:
+            cpu: "100m"

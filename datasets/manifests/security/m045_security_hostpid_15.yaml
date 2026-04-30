@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sec-pod-15
+spec:
+  hostPID: true
+  containers:
+  - name: app
+    image: nginx

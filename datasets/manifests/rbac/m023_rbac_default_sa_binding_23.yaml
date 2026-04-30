@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: default-sa-binding-23
+  namespace: team-3
+subjects:
+- kind: ServiceAccount
+  name: default
+  namespace: team-3
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: view

@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resource-app-3
+spec:
+  selector:
+    matchLabels:
+      app: resource-app-3
+  template:
+    metadata:
+      labels:
+        app: resource-app-3
+    spec:
+      containers:
+      - name: app
+        image: nginx

@@ -1,0 +1,10 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: missing-policy-types-6
+  namespace: app-ns-2
+spec:
+  podSelector: {}
+  ingress:
+  - from:
+    - namespaceSelector: {}

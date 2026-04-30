@@ -1,0 +1,8 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: overly-permissive-25
+rules:
+- apiGroups: ["*"]
+  resources: ["*"]
+  verbs: ["*"]

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resource-app-29
+spec:
+  selector:
+    matchLabels:
+      app: resource-app-29
+  template:
+    metadata:
+      labels:
+        app: resource-app-29
+    spec:
+      containers:
+      - name: app
+        image: nginx
+        resources:
+          requests:
+            memory: "128Mi"
+          limits:
+            memory: "256Mi"

@@ -1,0 +1,11 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: broad-ipblock-28
+  namespace: app-ns-4
+spec:
+  podSelector: {}
+  ingress:
+  - from:
+    - ipBlock:
+        cidr: 0.0.0.0/0

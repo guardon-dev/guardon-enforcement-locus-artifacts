@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sec-pod-33
+spec:
+  containers:
+  - name: app
+    image: nginx:1.25
+    securityContext:
+      privileged: true

@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: deprecated_deployment_21
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: old-deploy-21
+  template:
+    metadata:
+      labels:
+        app: old-deploy-21
+    spec:
+      containers:
+      - name: app
+        image: nginx
