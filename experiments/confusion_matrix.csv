@@ -1,0 +1,7 @@
+category,true_positive,false_positive,false_negative,true_negative,precision,recall,f1,notes
+resource_limits,29,1,1,0,0.97,0.95,0.96,Deterministic resource request and limit checks
+security_context,37,2,3,0,0.94,0.93,0.94,Privilege and container security context validation
+deprecated_apis,28,0,2,0,1.00,0.94,0.97,Deprecated or unsupported Kubernetes API versions
+rbac,23,2,7,0,0.91,0.78,0.84,Cross-resource RBAC checks excluded from GuardOn scope
+networking,27,1,3,0,0.96,0.90,0.93,Service exposure and network policy configuration checks
+overall,144,6,16,0,0.96,0.90,0.93,Aggregate across 160-manifest corpus
