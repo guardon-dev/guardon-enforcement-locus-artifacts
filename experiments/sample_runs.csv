@@ -1,0 +1,21 @@
+manifest_id,category,tool,enforcement_locus,latency_ms,detected,expected_result,outcome
+resource-001,resource_limits,GuardOn,review-time,39,true,fail,true_positive
+resource-001,resource_limits,OPA/Conftest,ci-cd,38000,true,fail,true_positive
+resource-001,resource_limits,Kyverno CLI,ci-cd,44000,true,fail,true_positive
+resource-001,resource_limits,Kube-Linter,ci-cd,35000,true,fail,true_positive
+security-001,security_context,GuardOn,review-time,46,true,fail,true_positive
+security-001,security_context,OPA/Conftest,ci-cd,41000,true,fail,true_positive
+security-001,security_context,Kyverno CLI,ci-cd,47000,true,fail,true_positive
+security-001,security_context,Kube-Linter,ci-cd,39000,true,fail,true_positive
+api-001,deprecated_apis,GuardOn,review-time,42,true,fail,true_positive
+api-001,deprecated_apis,OPA/Conftest,ci-cd,36000,true,fail,true_positive
+api-001,deprecated_apis,Kyverno CLI,ci-cd,43000,true,fail,true_positive
+api-001,deprecated_apis,Kube-Linter,ci-cd,34000,true,fail,true_positive
+rbac-001,rbac,GuardOn,review-time,51,true,fail,true_positive
+rbac-001,rbac,OPA/Conftest,ci-cd,42000,true,fail,true_positive
+rbac-001,rbac,Kyverno CLI,ci-cd,49000,true,fail,true_positive
+rbac-001,rbac,Kube-Linter,ci-cd,37000,true,fail,true_positive
+rbac-002,rbac,GuardOn,review-time,48,false,fail,false_negative
+rbac-002,rbac,OPA/Conftest,ci-cd,40000,true,fail,true_positive
+security-002,security_context,GuardOn,review-time,44,true,fail,true_positive
+security-002,security_context,OPA/Conftest,ci-cd,39000,true,fail,true_positive

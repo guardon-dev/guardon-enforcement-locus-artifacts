@@ -1,0 +1,161 @@
+manifest_id,filename,relative_path,category,source_folder,violation_type,expected_result,notes
+m001,m001_rbac_wildcard_all_1.yaml,rbac/m001_rbac_wildcard_all_1.yaml,rbac,rbac,wildcard_all,fail,RBAC rule grants wildcard verbs and resources
+m002,m002_rbac_wildcard_verbs_2.yaml,rbac/m002_rbac_wildcard_verbs_2.yaml,rbac,rbac,wildcard_verbs,fail,RBAC rule uses wildcard verbs
+m003,m003_rbac_cluster_admin_binding_3.yaml,rbac/m003_rbac_cluster_admin_binding_3.yaml,rbac,rbac,cluster_admin_binding,fail,Cluster-admin role binding is overly broad
+m004,m004_rbac_secret_access_4.yaml,rbac/m004_rbac_secret_access_4.yaml,rbac,rbac,secret_access,fail,Role grants broad access to secrets
+m005,m005_rbac_default_sa_binding_5.yaml,rbac/m005_rbac_default_sa_binding_5.yaml,rbac,rbac,default_sa_binding,fail,Default service account is bound to elevated permissions
+m006,m006_rbac_node_proxy_6.yaml,rbac/m006_rbac_node_proxy_6.yaml,rbac,rbac,node_proxy,fail,Role grants access to node proxy or node-level resources
+m007,m007_rbac_wildcard_all_7.yaml,rbac/m007_rbac_wildcard_all_7.yaml,rbac,rbac,wildcard_all,fail,RBAC rule grants wildcard verbs and resources
+m008,m008_rbac_wildcard_verbs_8.yaml,rbac/m008_rbac_wildcard_verbs_8.yaml,rbac,rbac,wildcard_verbs,fail,RBAC rule uses wildcard verbs
+m009,m009_rbac_cluster_admin_binding_9.yaml,rbac/m009_rbac_cluster_admin_binding_9.yaml,rbac,rbac,cluster_admin_binding,fail,Cluster-admin role binding is overly broad
+m010,m010_rbac_secret_access_10.yaml,rbac/m010_rbac_secret_access_10.yaml,rbac,rbac,secret_access,fail,Role grants broad access to secrets
+m011,m011_rbac_default_sa_binding_11.yaml,rbac/m011_rbac_default_sa_binding_11.yaml,rbac,rbac,default_sa_binding,fail,Default service account is bound to elevated permissions
+m012,m012_rbac_node_proxy_12.yaml,rbac/m012_rbac_node_proxy_12.yaml,rbac,rbac,node_proxy,fail,Role grants access to node proxy or node-level resources
+m013,m013_rbac_wildcard_all_13.yaml,rbac/m013_rbac_wildcard_all_13.yaml,rbac,rbac,wildcard_all,fail,RBAC rule grants wildcard verbs and resources
+m014,m014_rbac_wildcard_verbs_14.yaml,rbac/m014_rbac_wildcard_verbs_14.yaml,rbac,rbac,wildcard_verbs,fail,RBAC rule uses wildcard verbs
+m015,m015_rbac_cluster_admin_binding_15.yaml,rbac/m015_rbac_cluster_admin_binding_15.yaml,rbac,rbac,cluster_admin_binding,fail,Cluster-admin role binding is overly broad
+m016,m016_rbac_secret_access_16.yaml,rbac/m016_rbac_secret_access_16.yaml,rbac,rbac,secret_access,fail,Role grants broad access to secrets
+m017,m017_rbac_default_sa_binding_17.yaml,rbac/m017_rbac_default_sa_binding_17.yaml,rbac,rbac,default_sa_binding,fail,Default service account is bound to elevated permissions
+m018,m018_rbac_node_proxy_18.yaml,rbac/m018_rbac_node_proxy_18.yaml,rbac,rbac,node_proxy,fail,Role grants access to node proxy or node-level resources
+m019,m019_rbac_wildcard_all_19.yaml,rbac/m019_rbac_wildcard_all_19.yaml,rbac,rbac,wildcard_all,fail,RBAC rule grants wildcard verbs and resources
+m020,m020_rbac_wildcard_verbs_20.yaml,rbac/m020_rbac_wildcard_verbs_20.yaml,rbac,rbac,wildcard_verbs,fail,RBAC rule uses wildcard verbs
+m021,m021_rbac_cluster_admin_binding_21.yaml,rbac/m021_rbac_cluster_admin_binding_21.yaml,rbac,rbac,cluster_admin_binding,fail,Cluster-admin role binding is overly broad
+m022,m022_rbac_secret_access_22.yaml,rbac/m022_rbac_secret_access_22.yaml,rbac,rbac,secret_access,fail,Role grants broad access to secrets
+m023,m023_rbac_default_sa_binding_23.yaml,rbac/m023_rbac_default_sa_binding_23.yaml,rbac,rbac,default_sa_binding,fail,Default service account is bound to elevated permissions
+m024,m024_rbac_node_proxy_24.yaml,rbac/m024_rbac_node_proxy_24.yaml,rbac,rbac,node_proxy,fail,Role grants access to node proxy or node-level resources
+m025,m025_rbac_wildcard_all_25.yaml,rbac/m025_rbac_wildcard_all_25.yaml,rbac,rbac,wildcard_all,fail,RBAC rule grants wildcard verbs and resources
+m026,m026_rbac_wildcard_verbs_26.yaml,rbac/m026_rbac_wildcard_verbs_26.yaml,rbac,rbac,wildcard_verbs,fail,RBAC rule uses wildcard verbs
+m027,m027_rbac_cluster_admin_binding_27.yaml,rbac/m027_rbac_cluster_admin_binding_27.yaml,rbac,rbac,cluster_admin_binding,fail,Cluster-admin role binding is overly broad
+m028,m028_rbac_secret_access_28.yaml,rbac/m028_rbac_secret_access_28.yaml,rbac,rbac,secret_access,fail,Role grants broad access to secrets
+m029,m029_rbac_default_sa_binding_29.yaml,rbac/m029_rbac_default_sa_binding_29.yaml,rbac,rbac,default_sa_binding,fail,Default service account is bound to elevated permissions
+m030,m030_rbac_node_proxy_30.yaml,rbac/m030_rbac_node_proxy_30.yaml,rbac,rbac,node_proxy,fail,Role grants access to node proxy or node-level resources
+m031,m031_security_privileged_1.yaml,security/m031_security_privileged_1.yaml,security_context,security,privileged,fail,Privileged container is enabled
+m032,m032_security_run_as_root_2.yaml,security/m032_security_run_as_root_2.yaml,security_context,security,run_as_root,fail,Container is allowed to run as root
+m033,m033_security_privilege_escalation_3.yaml,security/m033_security_privilege_escalation_3.yaml,security_context,security,privilege_escalation,fail,Privilege escalation is allowed or not explicitly disabled
+m034,m034_security_writable_rootfs_4.yaml,security/m034_security_writable_rootfs_4.yaml,security_context,security,writable_rootfs,fail,Container root filesystem is writable
+m035,m035_security_capabilities_5.yaml,security/m035_security_capabilities_5.yaml,security_context,security,capabilities,fail,Container adds risky Linux capabilities or does not drop them
+m036,m036_security_hostnetwork_6.yaml,security/m036_security_hostnetwork_6.yaml,security_context,security,hostnetwork,fail,Pod uses hostNetwork
+m037,m037_security_hostpid_7.yaml,security/m037_security_hostpid_7.yaml,security_context,security,hostpid,fail,Pod uses hostPID
+m038,m038_security_unconfined_seccomp_8.yaml,security/m038_security_unconfined_seccomp_8.yaml,security_context,security,unconfined_seccomp,fail,Seccomp profile is unconfined or missing
+m039,m039_security_privileged_9.yaml,security/m039_security_privileged_9.yaml,security_context,security,privileged,fail,Privileged container is enabled
+m040,m040_security_run_as_root_10.yaml,security/m040_security_run_as_root_10.yaml,security_context,security,run_as_root,fail,Container is allowed to run as root
+m041,m041_security_privilege_escalation_11.yaml,security/m041_security_privilege_escalation_11.yaml,security_context,security,privilege_escalation,fail,Privilege escalation is allowed or not explicitly disabled
+m042,m042_security_writable_rootfs_12.yaml,security/m042_security_writable_rootfs_12.yaml,security_context,security,writable_rootfs,fail,Container root filesystem is writable
+m043,m043_security_capabilities_13.yaml,security/m043_security_capabilities_13.yaml,security_context,security,capabilities,fail,Container adds risky Linux capabilities or does not drop them
+m044,m044_security_hostnetwork_14.yaml,security/m044_security_hostnetwork_14.yaml,security_context,security,hostnetwork,fail,Pod uses hostNetwork
+m045,m045_security_hostpid_15.yaml,security/m045_security_hostpid_15.yaml,security_context,security,hostpid,fail,Pod uses hostPID
+m046,m046_security_unconfined_seccomp_16.yaml,security/m046_security_unconfined_seccomp_16.yaml,security_context,security,unconfined_seccomp,fail,Seccomp profile is unconfined or missing
+m047,m047_security_privileged_17.yaml,security/m047_security_privileged_17.yaml,security_context,security,privileged,fail,Privileged container is enabled
+m048,m048_security_run_as_root_18.yaml,security/m048_security_run_as_root_18.yaml,security_context,security,run_as_root,fail,Container is allowed to run as root
+m049,m049_security_privilege_escalation_19.yaml,security/m049_security_privilege_escalation_19.yaml,security_context,security,privilege_escalation,fail,Privilege escalation is allowed or not explicitly disabled
+m050,m050_security_writable_rootfs_20.yaml,security/m050_security_writable_rootfs_20.yaml,security_context,security,writable_rootfs,fail,Container root filesystem is writable
+m051,m051_security_capabilities_21.yaml,security/m051_security_capabilities_21.yaml,security_context,security,capabilities,fail,Container adds risky Linux capabilities or does not drop them
+m052,m052_security_hostnetwork_22.yaml,security/m052_security_hostnetwork_22.yaml,security_context,security,hostnetwork,fail,Pod uses hostNetwork
+m053,m053_security_hostpid_23.yaml,security/m053_security_hostpid_23.yaml,security_context,security,hostpid,fail,Pod uses hostPID
+m054,m054_security_unconfined_seccomp_24.yaml,security/m054_security_unconfined_seccomp_24.yaml,security_context,security,unconfined_seccomp,fail,Seccomp profile is unconfined or missing
+m055,m055_security_privileged_25.yaml,security/m055_security_privileged_25.yaml,security_context,security,privileged,fail,Privileged container is enabled
+m056,m056_security_run_as_root_26.yaml,security/m056_security_run_as_root_26.yaml,security_context,security,run_as_root,fail,Container is allowed to run as root
+m057,m057_security_privilege_escalation_27.yaml,security/m057_security_privilege_escalation_27.yaml,security_context,security,privilege_escalation,fail,Privilege escalation is allowed or not explicitly disabled
+m058,m058_security_writable_rootfs_28.yaml,security/m058_security_writable_rootfs_28.yaml,security_context,security,writable_rootfs,fail,Container root filesystem is writable
+m059,m059_security_capabilities_29.yaml,security/m059_security_capabilities_29.yaml,security_context,security,capabilities,fail,Container adds risky Linux capabilities or does not drop them
+m060,m060_security_hostnetwork_30.yaml,security/m060_security_hostnetwork_30.yaml,security_context,security,hostnetwork,fail,Pod uses hostNetwork
+m061,m061_security_hostpid_31.yaml,security/m061_security_hostpid_31.yaml,security_context,security,hostpid,fail,Pod uses hostPID
+m062,m062_security_unconfined_seccomp_32.yaml,security/m062_security_unconfined_seccomp_32.yaml,security_context,security,unconfined_seccomp,fail,Seccomp profile is unconfined or missing
+m063,m063_security_privileged_33.yaml,security/m063_security_privileged_33.yaml,security_context,security,privileged,fail,Privileged container is enabled
+m064,m064_security_run_as_root_34.yaml,security/m064_security_run_as_root_34.yaml,security_context,security,run_as_root,fail,Container is allowed to run as root
+m065,m065_security_privilege_escalation_35.yaml,security/m065_security_privilege_escalation_35.yaml,security_context,security,privilege_escalation,fail,Privilege escalation is allowed or not explicitly disabled
+m066,m066_security_writable_rootfs_36.yaml,security/m066_security_writable_rootfs_36.yaml,security_context,security,writable_rootfs,fail,Container root filesystem is writable
+m067,m067_security_capabilities_37.yaml,security/m067_security_capabilities_37.yaml,security_context,security,capabilities,fail,Container adds risky Linux capabilities or does not drop them
+m068,m068_security_hostnetwork_38.yaml,security/m068_security_hostnetwork_38.yaml,security_context,security,hostnetwork,fail,Pod uses hostNetwork
+m069,m069_security_hostpid_39.yaml,security/m069_security_hostpid_39.yaml,security_context,security,hostpid,fail,Pod uses hostPID
+m070,m070_security_unconfined_seccomp_40.yaml,security/m070_security_unconfined_seccomp_40.yaml,security_context,security,unconfined_seccomp,fail,Seccomp profile is unconfined or missing
+m071,m071_resource_missing_memory_limit_1.yaml,resource/m071_resource_missing_memory_limit_1.yaml,resource_limits,resource,missing_memory_limit,fail,Container missing memory limit
+m072,m072_resource_missing_requests_2.yaml,resource/m072_resource_missing_requests_2.yaml,resource_limits,resource,missing_requests,fail,Container missing resource requests
+m073,m073_resource_none_3.yaml,resource/m073_resource_none_3.yaml,resource_limits,resource,none,fail,Container has no resource constraints
+m074,m074_resource_excessive_4.yaml,resource/m074_resource_excessive_4.yaml,resource_limits,resource,excessive,fail,Resource values are excessive or outside expected range
+m075,m075_resource_missing_cpu_5.yaml,resource/m075_resource_missing_cpu_5.yaml,resource_limits,resource,missing_cpu,fail,Container missing CPU limit
+m076,m076_resource_zero_6.yaml,resource/m076_resource_zero_6.yaml,resource_limits,resource,zero,fail,Resource request or limit is zero or invalid
+m077,m077_resource_missing_memory_limit_7.yaml,resource/m077_resource_missing_memory_limit_7.yaml,resource_limits,resource,missing_memory_limit,fail,Container missing memory limit
+m078,m078_resource_missing_requests_8.yaml,resource/m078_resource_missing_requests_8.yaml,resource_limits,resource,missing_requests,fail,Container missing resource requests
+m079,m079_resource_none_9.yaml,resource/m079_resource_none_9.yaml,resource_limits,resource,none,fail,Container has no resource constraints
+m080,m080_resource_excessive_10.yaml,resource/m080_resource_excessive_10.yaml,resource_limits,resource,excessive,fail,Resource values are excessive or outside expected range
+m081,m081_resource_missing_cpu_11.yaml,resource/m081_resource_missing_cpu_11.yaml,resource_limits,resource,missing_cpu,fail,Container missing CPU limit
+m082,m082_resource_zero_12.yaml,resource/m082_resource_zero_12.yaml,resource_limits,resource,zero,fail,Resource request or limit is zero or invalid
+m083,m083_resource_missing_memory_limit_13.yaml,resource/m083_resource_missing_memory_limit_13.yaml,resource_limits,resource,missing_memory_limit,fail,Container missing memory limit
+m084,m084_resource_missing_requests_14.yaml,resource/m084_resource_missing_requests_14.yaml,resource_limits,resource,missing_requests,fail,Container missing resource requests
+m085,m085_resource_none_15.yaml,resource/m085_resource_none_15.yaml,resource_limits,resource,none,fail,Container has no resource constraints
+m086,m086_resource_excessive_16.yaml,resource/m086_resource_excessive_16.yaml,resource_limits,resource,excessive,fail,Resource values are excessive or outside expected range
+m087,m087_resource_missing_cpu_17.yaml,resource/m087_resource_missing_cpu_17.yaml,resource_limits,resource,missing_cpu,fail,Container missing CPU limit
+m088,m088_resource_zero_18.yaml,resource/m088_resource_zero_18.yaml,resource_limits,resource,zero,fail,Resource request or limit is zero or invalid
+m089,m089_resource_missing_memory_limit_19.yaml,resource/m089_resource_missing_memory_limit_19.yaml,resource_limits,resource,missing_memory_limit,fail,Container missing memory limit
+m090,m090_resource_missing_requests_20.yaml,resource/m090_resource_missing_requests_20.yaml,resource_limits,resource,missing_requests,fail,Container missing resource requests
+m091,m091_resource_none_21.yaml,resource/m091_resource_none_21.yaml,resource_limits,resource,none,fail,Container has no resource constraints
+m092,m092_resource_excessive_22.yaml,resource/m092_resource_excessive_22.yaml,resource_limits,resource,excessive,fail,Resource values are excessive or outside expected range
+m093,m093_resource_missing_cpu_23.yaml,resource/m093_resource_missing_cpu_23.yaml,resource_limits,resource,missing_cpu,fail,Container missing CPU limit
+m094,m094_resource_zero_24.yaml,resource/m094_resource_zero_24.yaml,resource_limits,resource,zero,fail,Resource request or limit is zero or invalid
+m095,m095_resource_missing_memory_limit_25.yaml,resource/m095_resource_missing_memory_limit_25.yaml,resource_limits,resource,missing_memory_limit,fail,Container missing memory limit
+m096,m096_resource_missing_requests_26.yaml,resource/m096_resource_missing_requests_26.yaml,resource_limits,resource,missing_requests,fail,Container missing resource requests
+m097,m097_resource_none_27.yaml,resource/m097_resource_none_27.yaml,resource_limits,resource,none,fail,Container has no resource constraints
+m098,m098_resource_excessive_28.yaml,resource/m098_resource_excessive_28.yaml,resource_limits,resource,excessive,fail,Resource values are excessive or outside expected range
+m099,m099_resource_missing_cpu_29.yaml,resource/m099_resource_missing_cpu_29.yaml,resource_limits,resource,missing_cpu,fail,Container missing CPU limit
+m100,m100_resource_zero_30.yaml,resource/m100_resource_zero_30.yaml,resource_limits,resource,zero,fail,Resource request or limit is zero or invalid
+m101,m101_net_allow_all_ingress_1.yaml,networking/m101_net_allow_all_ingress_1.yaml,networking,networking,allow_all_ingress,fail,NetworkPolicy allows all ingress traffic
+m102,m102_net_allow_all_egress_2.yaml,networking/m102_net_allow_all_egress_2.yaml,networking,networking,allow_all_egress,fail,NetworkPolicy allows all egress traffic
+m103,m103_net_public_ingress_3.yaml,networking/m103_net_public_ingress_3.yaml,networking,networking,public_ingress,fail,Ingress exposes service publicly or too broadly
+m104,m104_net_wildcard_cidr_4.yaml,networking/m104_net_wildcard_cidr_4.yaml,networking,networking,wildcard_cidr,fail,Network rule uses wildcard CIDR range
+m105,m105_net_nodeport_5.yaml,networking/m105_net_nodeport_5.yaml,networking,networking,nodeport,fail,Service exposes NodePort access
+m106,m106_net_ambiguous_policy_6.yaml,networking/m106_net_ambiguous_policy_6.yaml,networking,networking,ambiguous_policy,fail,NetworkPolicy is ambiguous or insufficiently restrictive
+m107,m107_net_allow_all_ingress_7.yaml,networking/m107_net_allow_all_ingress_7.yaml,networking,networking,allow_all_ingress,fail,NetworkPolicy allows all ingress traffic
+m108,m108_net_allow_all_egress_8.yaml,networking/m108_net_allow_all_egress_8.yaml,networking,networking,allow_all_egress,fail,NetworkPolicy allows all egress traffic
+m109,m109_net_public_ingress_9.yaml,networking/m109_net_public_ingress_9.yaml,networking,networking,public_ingress,fail,Ingress exposes service publicly or too broadly
+m110,m110_net_wildcard_cidr_10.yaml,networking/m110_net_wildcard_cidr_10.yaml,networking,networking,wildcard_cidr,fail,Network rule uses wildcard CIDR range
+m111,m111_net_nodeport_11.yaml,networking/m111_net_nodeport_11.yaml,networking,networking,nodeport,fail,Service exposes NodePort access
+m112,m112_net_ambiguous_policy_12.yaml,networking/m112_net_ambiguous_policy_12.yaml,networking,networking,ambiguous_policy,fail,NetworkPolicy is ambiguous or insufficiently restrictive
+m113,m113_net_allow_all_ingress_13.yaml,networking/m113_net_allow_all_ingress_13.yaml,networking,networking,allow_all_ingress,fail,NetworkPolicy allows all ingress traffic
+m114,m114_net_allow_all_egress_14.yaml,networking/m114_net_allow_all_egress_14.yaml,networking,networking,allow_all_egress,fail,NetworkPolicy allows all egress traffic
+m115,m115_net_public_ingress_15.yaml,networking/m115_net_public_ingress_15.yaml,networking,networking,public_ingress,fail,Ingress exposes service publicly or too broadly
+m116,m116_net_wildcard_cidr_16.yaml,networking/m116_net_wildcard_cidr_16.yaml,networking,networking,wildcard_cidr,fail,Network rule uses wildcard CIDR range
+m117,m117_net_nodeport_17.yaml,networking/m117_net_nodeport_17.yaml,networking,networking,nodeport,fail,Service exposes NodePort access
+m118,m118_net_ambiguous_policy_18.yaml,networking/m118_net_ambiguous_policy_18.yaml,networking,networking,ambiguous_policy,fail,NetworkPolicy is ambiguous or insufficiently restrictive
+m119,m119_net_allow_all_ingress_19.yaml,networking/m119_net_allow_all_ingress_19.yaml,networking,networking,allow_all_ingress,fail,NetworkPolicy allows all ingress traffic
+m120,m120_net_allow_all_egress_20.yaml,networking/m120_net_allow_all_egress_20.yaml,networking,networking,allow_all_egress,fail,NetworkPolicy allows all egress traffic
+m121,m121_net_public_ingress_21.yaml,networking/m121_net_public_ingress_21.yaml,networking,networking,public_ingress,fail,Ingress exposes service publicly or too broadly
+m122,m122_net_wildcard_cidr_22.yaml,networking/m122_net_wildcard_cidr_22.yaml,networking,networking,wildcard_cidr,fail,Network rule uses wildcard CIDR range
+m123,m123_net_nodeport_23.yaml,networking/m123_net_nodeport_23.yaml,networking,networking,nodeport,fail,Service exposes NodePort access
+m124,m124_net_ambiguous_policy_24.yaml,networking/m124_net_ambiguous_policy_24.yaml,networking,networking,ambiguous_policy,fail,NetworkPolicy is ambiguous or insufficiently restrictive
+m125,m125_net_allow_all_ingress_25.yaml,networking/m125_net_allow_all_ingress_25.yaml,networking,networking,allow_all_ingress,fail,NetworkPolicy allows all ingress traffic
+m126,m126_net_allow_all_egress_26.yaml,networking/m126_net_allow_all_egress_26.yaml,networking,networking,allow_all_egress,fail,NetworkPolicy allows all egress traffic
+m127,m127_net_public_ingress_27.yaml,networking/m127_net_public_ingress_27.yaml,networking,networking,public_ingress,fail,Ingress exposes service publicly or too broadly
+m128,m128_net_wildcard_cidr_28.yaml,networking/m128_net_wildcard_cidr_28.yaml,networking,networking,wildcard_cidr,fail,Network rule uses wildcard CIDR range
+m129,m129_net_nodeport_29.yaml,networking/m129_net_nodeport_29.yaml,networking,networking,nodeport,fail,Service exposes NodePort access
+m130,m130_net_ambiguous_policy_30.yaml,networking/m130_net_ambiguous_policy_30.yaml,networking,networking,ambiguous_policy,fail,NetworkPolicy is ambiguous or insufficiently restrictive
+m131,m131_deprecated_deployment_1.yaml,api-deprecation/m131_deprecated_deployment_1.yaml,deprecated_apis,api-deprecation,deprecated_deployment,fail,Deployment uses deprecated API version
+m132,m132_deprecated_ingress_2.yaml,api-deprecation/m132_deprecated_ingress_2.yaml,deprecated_apis,api-deprecation,deprecated_ingress,fail,Ingress uses deprecated API version
+m133,m133_deprecated_cronjob_3.yaml,api-deprecation/m133_deprecated_cronjob_3.yaml,deprecated_apis,api-deprecation,deprecated_cronjob,fail,CronJob uses deprecated API version
+m134,m134_deprecated_podsecuritypolicy_4.yaml,api-deprecation/m134_deprecated_podsecuritypolicy_4.yaml,deprecated_apis,api-deprecation,deprecated_podsecuritypolicy,fail,PodSecurityPolicy uses deprecated or removed API version
+m135,m135_deprecated_clusterrole_5.yaml,api-deprecation/m135_deprecated_clusterrole_5.yaml,deprecated_apis,api-deprecation,deprecated_clusterrole,fail,ClusterRole uses deprecated or unsupported API version
+m136,m136_deprecated_deployment_6.yaml,api-deprecation/m136_deprecated_deployment_6.yaml,deprecated_apis,api-deprecation,deprecated_deployment,fail,Deployment uses deprecated API version
+m137,m137_deprecated_ingress_7.yaml,api-deprecation/m137_deprecated_ingress_7.yaml,deprecated_apis,api-deprecation,deprecated_ingress,fail,Ingress uses deprecated API version
+m138,m138_deprecated_cronjob_8.yaml,api-deprecation/m138_deprecated_cronjob_8.yaml,deprecated_apis,api-deprecation,deprecated_cronjob,fail,CronJob uses deprecated API version
+m139,m139_deprecated_podsecuritypolicy_9.yaml,api-deprecation/m139_deprecated_podsecuritypolicy_9.yaml,deprecated_apis,api-deprecation,deprecated_podsecuritypolicy,fail,PodSecurityPolicy uses deprecated or removed API version
+m140,m140_deprecated_clusterrole_10.yaml,api-deprecation/m140_deprecated_clusterrole_10.yaml,deprecated_apis,api-deprecation,deprecated_clusterrole,fail,ClusterRole uses deprecated or unsupported API version
+m141,m141_deprecated_deployment_11.yaml,api-deprecation/m141_deprecated_deployment_11.yaml,deprecated_apis,api-deprecation,deprecated_deployment,fail,Deployment uses deprecated API version
+m142,m142_deprecated_ingress_12.yaml,api-deprecation/m142_deprecated_ingress_12.yaml,deprecated_apis,api-deprecation,deprecated_ingress,fail,Ingress uses deprecated API version
+m143,m143_deprecated_cronjob_13.yaml,api-deprecation/m143_deprecated_cronjob_13.yaml,deprecated_apis,api-deprecation,deprecated_cronjob,fail,CronJob uses deprecated API version
+m144,m144_deprecated_podsecuritypolicy_14.yaml,api-deprecation/m144_deprecated_podsecuritypolicy_14.yaml,deprecated_apis,api-deprecation,deprecated_podsecuritypolicy,fail,PodSecurityPolicy uses deprecated or removed API version
+m145,m145_deprecated_clusterrole_15.yaml,api-deprecation/m145_deprecated_clusterrole_15.yaml,deprecated_apis,api-deprecation,deprecated_clusterrole,fail,ClusterRole uses deprecated or unsupported API version
+m146,m146_deprecated_deployment_16.yaml,api-deprecation/m146_deprecated_deployment_16.yaml,deprecated_apis,api-deprecation,deprecated_deployment,fail,Deployment uses deprecated API version
+m147,m147_deprecated_ingress_17.yaml,api-deprecation/m147_deprecated_ingress_17.yaml,deprecated_apis,api-deprecation,deprecated_ingress,fail,Ingress uses deprecated API version
+m148,m148_deprecated_cronjob_18.yaml,api-deprecation/m148_deprecated_cronjob_18.yaml,deprecated_apis,api-deprecation,deprecated_cronjob,fail,CronJob uses deprecated API version
+m149,m149_deprecated_podsecuritypolicy_19.yaml,api-deprecation/m149_deprecated_podsecuritypolicy_19.yaml,deprecated_apis,api-deprecation,deprecated_podsecuritypolicy,fail,PodSecurityPolicy uses deprecated or removed API version
+m150,m150_deprecated_clusterrole_20.yaml,api-deprecation/m150_deprecated_clusterrole_20.yaml,deprecated_apis,api-deprecation,deprecated_clusterrole,fail,ClusterRole uses deprecated or unsupported API version
+m151,m151_deprecated_deployment_21.yaml,api-deprecation/m151_deprecated_deployment_21.yaml,deprecated_apis,api-deprecation,deprecated_deployment,fail,Deployment uses deprecated API version
+m152,m152_deprecated_ingress_22.yaml,api-deprecation/m152_deprecated_ingress_22.yaml,deprecated_apis,api-deprecation,deprecated_ingress,fail,Ingress uses deprecated API version
+m153,m153_deprecated_cronjob_23.yaml,api-deprecation/m153_deprecated_cronjob_23.yaml,deprecated_apis,api-deprecation,deprecated_cronjob,fail,CronJob uses deprecated API version
+m154,m154_deprecated_podsecuritypolicy_24.yaml,api-deprecation/m154_deprecated_podsecuritypolicy_24.yaml,deprecated_apis,api-deprecation,deprecated_podsecuritypolicy,fail,PodSecurityPolicy uses deprecated or removed API version
+m155,m155_deprecated_clusterrole_25.yaml,api-deprecation/m155_deprecated_clusterrole_25.yaml,deprecated_apis,api-deprecation,deprecated_clusterrole,fail,ClusterRole uses deprecated or unsupported API version
+m156,m156_deprecated_deployment_26.yaml,api-deprecation/m156_deprecated_deployment_26.yaml,deprecated_apis,api-deprecation,deprecated_deployment,fail,Deployment uses deprecated API version
+m157,m157_deprecated_ingress_27.yaml,api-deprecation/m157_deprecated_ingress_27.yaml,deprecated_apis,api-deprecation,deprecated_ingress,fail,Ingress uses deprecated API version
+m158,m158_deprecated_cronjob_28.yaml,api-deprecation/m158_deprecated_cronjob_28.yaml,deprecated_apis,api-deprecation,deprecated_cronjob,fail,CronJob uses deprecated API version
+m159,m159_deprecated_podsecuritypolicy_29.yaml,api-deprecation/m159_deprecated_podsecuritypolicy_29.yaml,deprecated_apis,api-deprecation,deprecated_podsecuritypolicy,fail,PodSecurityPolicy uses deprecated or removed API version
+m160,m160_deprecated_clusterrole_30.yaml,api-deprecation/m160_deprecated_clusterrole_30.yaml,deprecated_apis,api-deprecation,deprecated_clusterrole,fail,ClusterRole uses deprecated or unsupported API version

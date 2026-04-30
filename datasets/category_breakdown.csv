@@ -1,0 +1,6 @@
+category,count,description
+resource_limits,38,Missing or under-specified CPU and memory resource limits
+security_context,42,Overly permissive pod or container security context settings
+deprecated_apis,35,Deprecated invalid or unsupported Kubernetes API versions
+rbac,45,Incorrect overly broad or risky RBAC permissions
+total,160,Full Kubernetes manifest evaluation corpus
