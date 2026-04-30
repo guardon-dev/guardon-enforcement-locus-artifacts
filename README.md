@@ -25,7 +25,7 @@ This repository is intended as a **supporting artifact**, not a full benchmark s
 ```text
 guardon-enforcement-locus-artifacts/
 ├── enforcement_locus/     # Concept definition and trade-offs
-├── dataset/               # 160-manifest corpus and ground truth
+├── datasets/               # 160-manifest corpus and ground truth
 ├── experiments/           # Methodology and raw results (RQ1, RQ2, RQ3)
 ├── results/               # Tables and summarized findings
 └── limitations/           # Threats to validity and constraints

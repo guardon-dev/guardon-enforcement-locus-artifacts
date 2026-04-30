@@ -1,0 +1,6 @@
+locus,latency,visibility,drift,operational_cost,bypassable,notes
+Edit-time (IDE),Very Low,Author,Medium,None,Yes,Fast feedback but limited to individual developer environment
+Commit-time (CLI),Low,Author,High,None,Yes,Dependent on local setup; can be skipped or inconsistent
+Review-time (Code Review),Very Low,Team,Low,None,Yes,Client-side validation; visible during collaboration; extension can be disabled
+Pipeline-time (CI/CD),Medium to High,Team,Low,CI Infrastructure,No,Centralized enforcement; includes scheduling and execution delays
+Admission-time (Cluster),High,Operations,Low,Cluster Infrastructure,No,Strongest enforcement guarantee; latest feedback stage

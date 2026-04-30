@@ -1,0 +1,5 @@
+tool,enforcement_locus,measurement_start,measurement_end,median,p95,unit,notes
+GuardOn,Review-time,manifest rendered in PR diff,first annotation visible,42,110,ms,in-browser evaluation without CI scheduling
+OPA/Conftest,CI/CD,PR workflow triggered,PR annotation visible,38,74,s,includes CI scheduling and runner startup
+Kyverno CLI,CI/CD,PR workflow triggered,PR annotation visible,44,81,s,includes CI scheduling and runner startup
+Kube-Linter,CI/CD,PR workflow triggered,PR annotation visible,35,69,s,includes CI scheduling and runner startup
