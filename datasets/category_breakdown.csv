@@ -1,6 +1,7 @@
 category,count,description
-resource_limits,38,Missing or under-specified CPU and memory resource limits
-security_context,42,Overly permissive pod or container security context settings
-deprecated_apis,35,Deprecated invalid or unsupported Kubernetes API versions
-rbac,45,Incorrect overly broad or risky RBAC permissions
+resource_limits,30,Missing or under-specified CPU and memory resource limits
+security_context,40,Overly permissive pod or container security context settings
+deprecated_apis,30,Deprecated invalid or unsupported Kubernetes API versions
+rbac,30,Incorrect overly broad or risky RBAC permissions
+networking,30,Service exposure port configuration ingress and network policy issues
 total,160,Full Kubernetes manifest evaluation corpus
