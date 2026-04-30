@@ -1,6 +1,6 @@
-category,guardon_precision,guardon_recall,guardon_f1,opa_precision,opa_recall,opa_f1,notes
-Resource Limits,0.97,0.95,0.96,0.96,0.97,0.97,Deterministic resource-local checks
-Security Context,0.94,0.93,0.94,0.95,0.95,0.95,Privilege and container security context checks
-Deprecated APIs,1.00,0.94,0.97,0.98,0.91,0.95,API version validation
-RBAC,0.91,0.78,0.84,0.93,0.93,0.93,GuardOn excludes cross-resource cluster-context checks
-Overall,0.95,0.90,0.93,0.96,0.94,0.95,Aggregate across 160-manifest corpus
+category,precision,recall,f1,notes
+resource_limits,0.97,0.97,0.97,Deterministic CPU and memory limit checks
+security_context,0.90,0.93,0.91,Includes majority of false positives; privilege-related checks
+deprecated_apis,1.00,0.93,0.97,Highly deterministic API version validation
+rbac,0.92,0.73,0.82,Lower recall due to exclusion of cross-resource policies
+overall,0.94,0.89,0.91,Aggregate across evaluated categories (excluding networking)

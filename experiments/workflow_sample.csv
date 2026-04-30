@@ -1,2 +1,2 @@
-sample_scope,repositories,pull_requests,total_violations,violations_resolved_before_merge,resolution_rate,baseline_context,notes
-Public repository PR sample,8,37,112,94,84%,61% of historical CI policy failures required additional commits after CI feedback,Observational comparison only; not causal
+sample_scope,repositories,pull_requests,total_violations,violations_resolved_before_merge,violations_unresolved_before_merge,resolution_rate,baseline_context,interpretation,notes
+Public repository PR sample,8,37,112,94,18,84%,61% of historical CI policy failures required at least one additional commit after CI feedback,Indicative not causal,Comparison uses different PR populations and should not be interpreted as controlled evidence
